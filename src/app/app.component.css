@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+}
+
+main {
+  margin: 30px;
+}
+
+mat-toolbar {
+background-color: #CCC5C6;
+height: 125px;
+}
+
+mat-toolbar p {
+  color: #47525E;
+  font-family: 'Karla';
+  font-size: 40px;
+  align-items: center;
+  margin-left: 32%;
+}
+
+span {
+  padding-left: 40px;
+}
+
+img {
+  margin:0px;
+  height:100%;
+  width:100%;
+  -webkit-background-size:cover;
+  -o-background-size:cover;
+  -moz-background-size:cover;
+  background-size:cover;
+  background-repeat: repeat;
+}
+
+
+
