@@ -37,6 +37,8 @@ import { MatTooltipModule} from '@angular/material/tooltip';
 import { MatGridListModule} from '@angular/material/grid-list';
 import { MatTreeModule } from '@angular/material/tree';
 import { ScrollingModule } from '@angular/cdk/scrolling';
+import { HeroComponent } from './hero/hero.component';
+
 
 
 @NgModule({
@@ -49,6 +51,7 @@ import { ScrollingModule } from '@angular/cdk/scrolling';
     DatabaseDiagramsComponent,
     ApiUnitTestsComponent,
     PresentationsComponent,
+    HeroComponent,
 
 
   ],
@@ -82,7 +85,8 @@ import { ScrollingModule } from '@angular/cdk/scrolling';
     ReactiveFormsModule,
     MatGridListModule,
     MatTreeModule,
-    ScrollingModule
+    ScrollingModule,
+
   ],
 
   providers: [],

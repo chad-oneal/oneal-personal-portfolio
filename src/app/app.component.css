@@ -14,25 +14,22 @@ height: 125px;
 mat-toolbar p {
   color: #47525E;
   font-family: 'Karla';
-  font-size: 40px;
+  font-size: 34px;
   align-items: center;
-  margin-left: 32%;
+  margin-left: 5%;
 }
 
 span {
-  padding-left: 40px;
+  padding-left: 10px;
 }
 
-img {
-  margin:0px;
-  height:100%;
-  width:100%;
-  -webkit-background-size:cover;
-  -o-background-size:cover;
-  -moz-background-size:cover;
-  background-size:cover;
-  background-repeat: repeat;
-}
+
+
+
+
+
+
+
 
 
 
