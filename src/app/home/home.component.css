@@ -1,36 +1,57 @@
-.hero {
+.hero-image {
+  background-image: url('..//..//assets/jr-korpa-ZkngO3nRFCY-unsplash.jpg');
+  background-size: cover;
+  height: 100vh;
   position: relative;
 }
 
-.hero img {
-  width: 100%;
-  height: 100vh;
-}
-
-.hero-content {
+.card-container {
   position: absolute;
-  top: 30%;
+  top: 8%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-align: center;
+  z-index: 0; /* set the z-index to a value higher than the hero image */
+  width: 350px;
+  height: 100px;
+  background-color: #F8F8F8;
+  border-radius: 5%;
+}
+
+img {
+  position: absolute;
+  margin-top: -47%;
+  left: 50;
+  width: 150px;
+  height: 150px;
+  border-radius: 15%;
+}
+
+mat-card-content {
+  margin-top: 50%;
+  font-size: 24px;
+  font-family: Karla;
+}
+
+button {
+  margin-top: 8%;
+  margin-left: 16%;
+  width: 70%;
+  height: 40%;
+  background-color: #CCC5C6;
+  color: #47525E;
+  align-items: center;
+  border: none;
+  border-radius: 12px;
+  box-shadow: rgba(145, 2, 2, 0.863) 0 15px 30px -5px;
+  box-sizing: border-box;
+  font-family: 'Karla';
+  line-height: -1em;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+button:hover {
   color: #F8F8F8;
-}
-
-.hero-content h1 {
-  font-size: 3rem;
-  margin-bottom: 1rem;
-  font-family: "Karla";
-}
-
-.hero-content p {
-  font-size: 1.5rem;
-  margin-bottom: 2rem;
-  font-family: "Karla";
-}
-
-.hero-content img {
-  width: 250px;
-  height: 250px;
-  border-radius: 50%;
-  margin-top: 2rem;
+  transition: .20s;
 }
